@@ -1,6 +1,6 @@
 <template>
   <div class="h-full container mx-auto justify-center items-center flex bg-white p-20">
-    <img src="img/computer-people.jpg" class="h-full rounded-l-2xl" />
+    <img src="/img/computer-people.jpg" class="h-full rounded-l-2xl" />
     <div
       class="w-full h-full bg-white border border-gray-200 rounded-r-2xl shadow-md sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700"
     >

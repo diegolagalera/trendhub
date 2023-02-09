@@ -37,7 +37,7 @@
       <div class="w-full flex justify-center">
         <img
           class="mt-2 h-24 rounded-2xl border border-gray-100 dark:border-gray-700"
-          src="img/pcs.jpg"
+          src="/img/pcs.jpg"
         />
       </div>
 

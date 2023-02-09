@@ -4,7 +4,7 @@
   >
     <div class="absolute w-screnn h-20 -mt-20 bg-red-500"></div>
     <img
-      src="img/service/2.jpeg"
+      src="/img/service/2.jpeg"
       class="custom rounded-3xl absolute bottom-0 -z-10 right-0 md:mr-20 lg:ml-40 mr-8 xl:h-[38rem] lg:h-[27rem] md:h-[20rem] h-52 lg:-mb-10 xl:-mb-14 md:-mb-10 -mb-10"
     />
     
