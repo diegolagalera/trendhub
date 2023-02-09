@@ -1,0 +1,105 @@
+<div class="lg:fixed top-0 w-full z-10">
+    <nav
+      class="flex h-14 items-center py-8 justify-between shadow-2xl md:px-0"
+      aria-label="Global"
+    >
+      <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <TextAnimation2 class="flex justify-center ml-20" :text="'CERBERUS'"></TextAnimation2>
+        </a>
+      </div>
+      <!-- menu vericon pc -->
+      <div
+        class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12"
+      >
+        <a
+          v-for="item in navigation"
+          :key="item.name"
+          :href="item.href"
+          class="flex font-semibold text-white hover:text-gray-900"
+        >
+          <Icon class="mr-2" :name="item.icon"></Icon>
+          {{ item.name }}
+        </a>
+      </div>
+      <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
+        <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dark</button>
+      </div>
+      <!-- Boton menu Mobile -->
+      <div class="flex lg:hidden text-white">
+        <NavbarMobile></NavbarMobile>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div
+    class="-z-10 absolute w-full bg-black text-white xl:h-2/3 lg:h-3/6 md:h-2/6 h-72 top-0 min-[1281px]:h-3/6 min-[1400px]:h-2/3"
+  >
+    <div
+      class="xl:h-full lg:h-full md:h-full w-full flex justify-end md:mt-54 lg:mt-20 mt-24"
+    >
+      <img
+        src="img/fondo.jpg"
+        class="rounded-3xl xl:h-full min-[1281px]:h-full lg:h-full xl:h-6/6 md:h-5/6 xl:mt-0 lg:mt-0 md:mt-6 mt-10 h-48 xl:mr-50 lg:mr-32 md:mr-20 mr-4 xl:w-auto"
+      />
+    </div>
+    <div class="container mx-auto text-red-500">
+      <div class="border mx-4">a</div>
+      a
+
+      <div
+        class="mx-4 p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <h5
+            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Noteworthy technology acquisitions 2021
+          </h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          Here are the biggest enterprise technology acquisitions of 2021 so
+          far, in reverse chronological order.
+        </p>
+        <a
+          href="#"
+          class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Read more
+          <svg
+            aria-hidden="true"
+            class="w-4 h-4 ml-2 -mr-1"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <BannerHome></BannerHome> -->
